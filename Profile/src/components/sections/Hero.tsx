@@ -3,6 +3,7 @@ import { Github, Linkedin, Mail, Download } from 'lucide-react';
 import { TypewriterText } from '../TypewriterText';
 import { ParticleBackground } from '../ParticleBackground';
 
+
 export function Hero() {
   const phrases = [
     "Building exceptional digital experiences",
@@ -59,8 +60,8 @@ export function Hero() {
             </div>
             
             <a
-              href="/resume.pdf"
-              download
+              href="./resume.pdf"
+              download="Abhishek_RG_Resume.pdf"
               className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-500 
                        hover:from-blue-500 hover:to-blue-400 text-white font-medium rounded-lg 
                        transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20"

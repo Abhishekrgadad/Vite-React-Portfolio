@@ -4,18 +4,18 @@ import { ExternalLink, Github } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React and Node.js",
+      title: "Nextjs Blog Platform",
+      description: "A full-stack Blog website with createpost and all CRUD operations related to Blog done with Nextjs and Node.js",
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
-      tags: ["React", "Node.js", "MongoDB"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      tags: ["Nextjs","React","Tailwindcss", "Node.js","Clerk Auth", "MongoDB"],
+      github: "https://github.com/Abhishekrgadad/Blog-Nextjs",
+      // demo: "https://demo.com"
     },
     {
-      title: "Task Management App",
-      description: "Real-time task management with collaborative features",
+      title: "HacFy CTF Website",
+      description: "CTF website for HacFy Hackathon 2024",
       image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop",
-      tags: ["React", "Firebase", "Tailwind"],
+      tags: ["React", "Nodejs", "Tailwind", "MongoDB"],
       github: "https://github.com",
       demo: "https://demo.com"
     },
@@ -79,7 +79,7 @@ export function Projects() {
                     <Github className="w-5 h-5" />
                     <span>Code</span>
                   </a>
-                  <a
+                  {/* <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -88,7 +88,7 @@ export function Projects() {
                   >
                     <ExternalLink className="w-5 h-5" />
                     <span>Demo</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

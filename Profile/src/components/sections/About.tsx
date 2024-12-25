@@ -9,8 +9,8 @@ export function About() {
           <div className="space-y-6">
             <h2 className="text-3xl font-bold text-white">About Me</h2>
             <p className="text-gray-300 leading-relaxed">
-              I'm a passionate Full Stack Developer with 5+ years of experience in building
-              web applications. I specialize in React, Node.js, and modern web technologies.
+              I'm a passionate Full Stack Developer with good experience in building
+              web applications. I specialize in React, Node.js, Nextjs and modern web technologies Frameworks.
               My journey in tech started with a curiosity about how things work on the internet,
               and that curiosity has driven me to continuously learn and grow in this field.
             </p>
@@ -23,14 +23,14 @@ export function About() {
               <div className="space-y-4">
                 {[
                   {
-                    degree: "Master's in Computer Science",
-                    school: "Tech University",
-                    year: "2018-2020"
+                    degree: "Alva's Institute of Engineering and Technology,DK",
+                    school: "VTU | CGPA : 8.5",
+                    year: "2021-2025"
                   },
                   {
-                    degree: "Bachelor's in Computer Engineering",
-                    school: "Engineering College",
-                    year: "2014-2018"
+                    degree: "Alva's Pre University College",
+                    school: "PU | Percentage : 89.66%",
+                    year: "2019-2021"
                   }
                 ].map((edu) => (
                   <div
@@ -54,14 +54,14 @@ export function About() {
               <div className="space-y-4">
                 {[
                   {
-                    role: "Senior Full Stack Developer",
-                    company: "Tech Corp",
-                    period: "2020-Present"
+                    role: "HacFy",
+                    company: "Software Developer",
+                    period: "Sep 2024-Present"
                   },
                   {
-                    role: "Full Stack Developer",
-                    company: "StartUp Inc",
-                    period: "2018-2020"
+                    role: "Innorve LLC",
+                    company: "Automation Intern",
+                    period: "Nov 2023 - Dec 2023"
                   }
                 ].map((exp) => (
                   <div
