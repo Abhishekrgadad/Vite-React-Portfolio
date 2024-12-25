@@ -30,7 +30,7 @@ export function Hero() {
           
           <h1 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 
                        bg-clip-text text-transparent animate-fade-in">
-            John Developer
+            Abhishek RG
           </h1>
           
           <div className="text-xl text-gray-300 mb-8 h-8">
@@ -40,9 +40,9 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row items-center gap-6 mb-12">
             <div className="flex space-x-6">
               {[
-                { href: 'https://github.com', icon: Github },
-                { href: 'https://linkedin.com', icon: Linkedin },
-                { href: 'mailto:john@example.com', icon: Mail }
+                { href: 'https://github.com/abhishekrgadad', icon: Github },
+                { href: 'https://linkedin.com/in/abhishekrgadad', icon: Linkedin },
+                { href: 'mailto:abhishekgadad485@gmail.com', icon: Mail }
               ].map(({ href, icon: Icon }) => (
                 <a
                   key={href}
