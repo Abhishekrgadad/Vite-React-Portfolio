@@ -56,7 +56,7 @@ export function About() {
                   {
                     role: "HacFy",
                     company: "Software Developer",
-                    period: "Sep 2024-Present"
+                    period: "Sep 2024-Jan 2025"
                   },
                   {
                     role: "Innorve LLC",

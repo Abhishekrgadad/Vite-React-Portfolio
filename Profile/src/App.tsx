@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/sections/Hero';
 import { TechStack } from './components/TechStack';
-import { Analytics } from './components/Analytics';
+// import { Analytics } from './components/Analytics';
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Certifications } from './components/sections/Certifications';
@@ -18,7 +18,7 @@ function App() {
       <Navigation />
       <Hero />
       <TechStack />
-      <Analytics />
+      {/* <Analytics /> */}
       <About />
       <Projects />
       <Certifications />

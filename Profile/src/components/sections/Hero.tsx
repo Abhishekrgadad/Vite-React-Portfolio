@@ -20,7 +20,7 @@ export function Hero() {
         <div className="flex flex-col items-center text-center">
           <div className="relative group">
             <img
-              src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop"
+              src="/profile.jpeg"
               alt="Profile"
               className="w-40 h-40 rounded-full object-cover shadow-2xl mb-8 
                        transition-transform duration-300 group-hover:scale-105"
@@ -31,7 +31,7 @@ export function Hero() {
           
           <h1 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 
                        bg-clip-text text-transparent animate-fade-in">
-            Abhishek RG
+            Abhishek R Gadad
           </h1>
           
           <div className="text-xl text-gray-300 mb-8 h-8">

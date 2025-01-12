@@ -33,7 +33,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-white">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/abhishekrgadad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -41,7 +41,7 @@ export function Footer() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/abhishekrgadad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -49,7 +49,7 @@ export function Footer() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:abhishekrgadad@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Mail className="w-6 h-6" />
@@ -62,15 +62,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3 text-gray-400">
                 <Mail className="w-5 h-5" />
-                <span>contact@example.com</span>
+                <span>abhishekrgadad@gmail.com</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-5 h-5" />
-                <span>+1 (555) 123-4567</span>
+                <span>+918431642320</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5" />
-                <span>San Francisco, CA</span>
+                <span>Belgaum, Karnataka</span>
               </li>
             </ul>
           </div>
