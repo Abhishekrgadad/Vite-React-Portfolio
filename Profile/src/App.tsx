@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/sections/Hero';
 import { TechStack } from './components/TechStack';
