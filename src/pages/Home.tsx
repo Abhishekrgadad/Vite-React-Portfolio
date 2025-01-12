@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { WaveBackground } from '../components/WaveBackground';
 
@@ -34,7 +34,7 @@ export function Home() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/abhishekrgadad"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
@@ -42,7 +42,7 @@ export function Home() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:abhishekrgadad@gmail.com"
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
             >
               <Mail className="w-6 h-6" />
