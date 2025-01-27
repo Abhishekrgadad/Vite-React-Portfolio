@@ -77,7 +77,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© 2024 Abhishek RG. All rights reserved.</p>
+          <p>© 2025 Abhishek RG. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
