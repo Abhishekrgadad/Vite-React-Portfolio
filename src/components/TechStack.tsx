@@ -25,11 +25,6 @@ const techLogos = [
   { name: 'Netlify', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg' },
   // { name: 'vercel', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg' },
   { name: 'stackoverflow', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stackoverflow/stackoverflow-original.svg' },
-
-
- 
-
-
 ];
 
 export function TechStack() {
