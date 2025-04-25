@@ -4,7 +4,7 @@ import { Award, ExternalLink } from 'lucide-react';
 const certificates = [
   {
     title: "AWS Solutions Architect",
-    issuer: "Amazon Web Services",
+    issuer: "AWS",
     description: "Advanced cloud architecture and infrastructure design certification covering AWS services and best practices.",
     image: "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=400&h=300&fit=crop",
     url: "https://drive.google.com/drive/folders/1lyWfKjxOt25lgCBd9s2bfDwjg_X1zXPm?usp=sharing"
@@ -25,7 +25,7 @@ const certificates = [
   },
   {
     title: "Machine Learning",
-    issuer: "Stanford University",
+    issuer: "Coursera",
     description: "Advanced certification in machine learning algorithms and practical applications.",
     image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop",
     url: "https://drive.google.com/drive/folders/1lyWfKjxOt25lgCBd9s2bfDwjg_X1zXPm?usp=sharing"
