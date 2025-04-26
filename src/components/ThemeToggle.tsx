@@ -10,7 +10,7 @@ export function ThemeToggle({ className }: { className?: string }) {
     <button
       onClick={toggleTheme}
       className={cn(
-        "p-2 rounded-full transition-colors",
+        "p-2 rounded-full transition-colors transition duration-300 ease-in-out transform hover:scale-110",
         "hover:bg-gray-200 dark:hover:bg-gray-800",
         className
       )}

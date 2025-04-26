@@ -40,7 +40,7 @@ export function ParticleBackground() {
 
     const init = () => {
       resize();
-      for (let i = 0; i < 100; i++) {
+      for (let i = 0; i < 50; i++) {
         particles.push(createParticle());
       }
     };
