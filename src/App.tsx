@@ -17,7 +17,7 @@ function App() {
       <CursorTrail color="rgba(66, 153, 225, 0.6)" />
       <Navigation />
       <Hero />
-      <TechStack />
+      {/* <TechStack /> */}
       {/* <Analytics /> */}
       <About />
       <Projects />
