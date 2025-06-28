@@ -1,7 +1,7 @@
 
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/sections/Hero';
-import { TechStack } from './components/TechStack';
+// import { TechStack } from './components/TechStack';
 // import { Analytics } from './components/Analytics';
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
@@ -12,7 +12,7 @@ import { Footer } from './components/Footer';
 import { CursorTrail } from './components/CursorTrail';
 
 function App() {
-  return (
+  return ( 
     <div className="min-h-screen bg-black text-gray-100">
       <CursorTrail color="rgba(66, 153, 225, 0.6)" />
       <Navigation />
@@ -26,6 +26,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    
   );
 }
 
